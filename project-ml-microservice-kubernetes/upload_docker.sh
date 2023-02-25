@@ -11,7 +11,7 @@ dockerpath="mmkiruri/udacity-project4"
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login -u mmkiruri
-docker tag service $dockerpath
+docker tag udacity-project4 $dockerpath
 
 # Step 3:
 # Push image to a docker repository
